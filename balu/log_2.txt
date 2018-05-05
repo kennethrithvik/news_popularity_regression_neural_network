@@ -1,0 +1,75 @@
+MLPRegressor(activation='tanh', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=False, epsilon=1e-08,
+       hidden_layer_sizes=(64,), learning_rate='adaptive',
+       learning_rate_init=0.01, max_iter=10000, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=None,
+       shuffle=True, solver='sgd', tol=0.0001, validation_fraction=0.1,
+       verbose=False, warm_start=False)
+0.000532391784263 -2.24790133946
+0.000529116798927 -0.840686455733
+0.000486859092442 -2.47215826066
+0.000425165524429 -1.5201135376
+[0.0005323917842633167, 0.0005291167989268999, 0.00048685909244210174, 0.0004251655244288454]
+[-2.2479013394640646, -0.8406864557334912, -2.4721582606557027, -1.5201135376022838]
+0.000493383300015 -1.77021489836
+0.000493383300015 -1.77021489836
+MLPRegressor(activation='tanh', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=False, epsilon=1e-08,
+       hidden_layer_sizes=(64, 64), learning_rate='adaptive',
+       learning_rate_init=0.01, max_iter=10000, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=None,
+       shuffle=True, solver='sgd', tol=0.0001, validation_fraction=0.1,
+       verbose=False, warm_start=False)
+0.000409232233876 -1.49655603232
+0.000527114446538 -0.833720691409
+0.000373344010946 -1.6625968618
+0.000432468758167 -1.56340250897
+[0.0004092322338763243, 0.0005271144465382739, 0.0003733440109463753, 0.0004324687581669949]
+[-1.4965560323173581, -0.8337206914091975, -1.662596861797235, -1.5634025089658699]
+0.000435539862382 -1.38906902362
+0.000435539862382 -1.38906902362
+MLPRegressor(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=False, epsilon=1e-08,
+       hidden_layer_sizes=(64, 64), learning_rate='adaptive',
+       learning_rate_init=0.01, max_iter=10000, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=None,
+       shuffle=True, solver='sgd', tol=0.0001, validation_fraction=0.1,
+       verbose=False, warm_start=False)
+0.000535134609931 -2.26463418062
+0.000695805420346 -1.42056123649
+0.00043443624017 -2.09829148403
+0.000406380821044 -1.4087696431
+[0.0005351346099309118, 0.0006958054203458536, 0.0004344362401698355, 0.0004063808210442018]
+[-2.2646341806216816, -1.42056123648704, -2.098291484025811, -1.4087696430965422]
+0.000517939272873 -1.79806413606
+0.000517939272873 -1.79806413606
+MLPRegressor(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=False, epsilon=1e-08,
+       hidden_layer_sizes=(64, 64), learning_rate='adaptive',
+       learning_rate_init=0.01, max_iter=10000, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=None,
+       shuffle=True, solver='adam', tol=0.0001, validation_fraction=0.1,
+       verbose=False, warm_start=False)
+0.000174629707264 -0.0653433747447
+0.000288267836252 -0.00282338963567
+0.000142965438646 -0.0195940396102
+0.000170467885947 -0.0104262985097
+[0.00017462970726414033, 0.0002882678362522144, 0.00014296543864629618, 0.0001704678859474363]
+[-0.06534337474467122, -0.0028233896356735233, -0.019594039610210112, -0.010426298509706333]
+0.000194082717028 -0.0245467756251
+0.000194082717028 -0.0245467756251
+MLPRegressor(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=False, epsilon=1e-08,
+       hidden_layer_sizes=(128, 128), learning_rate='adaptive',
+       learning_rate_init=0.001, max_iter=10000, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=None,
+       shuffle=True, solver='adam', tol=0.0001, validation_fraction=0.1,
+       verbose=False, warm_start=False)
+0.000198050623504 -0.208224665321
+0.000311288125197 -0.0829061504803
+0.000179274811262 -0.278543476984
+0.000206855081592 -0.226106684314
+[0.0001980506235042387, 0.00031128812519678936, 0.00017927481126242087, 0.00020685508159212779]
+[-0.2082246653208386, -0.08290615048032524, -0.2785434769842201, -0.22610668431416858]
+0.000223867160389 -0.198945244275
+0.000223867160389 -0.198945244275

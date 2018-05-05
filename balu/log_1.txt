@@ -1,0 +1,75 @@
+MLPRegressor(activation='tanh', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=False, epsilon=1e-08,
+       hidden_layer_sizes=(64,), learning_rate='adaptive',
+       learning_rate_init=0.01, max_iter=10000, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=None,
+       shuffle=True, solver='sgd', tol=0.0001, validation_fraction=0.1,
+       verbose=False, warm_start=False)
+0.15052605176 0.0793477285031
+0.15277922064 0.0753220290784
+0.146487309387 0.0776347427544
+0.153292691513 0.07453669248
+[0.15052605175963837, 0.15277922063967464, 0.14648730938672616, 0.15329269151266037]
+[0.0793477285031231, 0.07532202907839591, 0.07763474275439564, 0.07453669248003447]
+0.150771318325 0.076710298204
+0.150771318325 0.076710298204
+MLPRegressor(activation='tanh', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=False, epsilon=1e-08,
+       hidden_layer_sizes=(64, 64), learning_rate='adaptive',
+       learning_rate_init=0.01, max_iter=10000, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=None,
+       shuffle=True, solver='sgd', tol=0.0001, validation_fraction=0.1,
+       verbose=False, warm_start=False)
+0.150797932089 0.0776848453037
+0.152338170016 0.0779914352598
+0.147687580105 0.0700771733346
+0.152957079933 0.076562856933
+[0.15079793208872502, 0.15233817001579067, 0.14768758010498756, 0.15295707993312116]
+[0.07768484530368447, 0.07799143525980723, 0.07007717333457075, 0.07656285693300002]
+0.150945190536 0.0755790777078
+0.150945190536 0.0755790777078
+MLPRegressor(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=False, epsilon=1e-08,
+       hidden_layer_sizes=(64, 64), learning_rate='adaptive',
+       learning_rate_init=0.01, max_iter=10000, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=None,
+       shuffle=True, solver='sgd', tol=0.0001, validation_fraction=0.1,
+       verbose=False, warm_start=False)
+0.150808536949 0.077619983518
+0.151247207113 0.0845943578252
+0.144223803932 0.0918870271294
+0.150906861492 0.0889404981706
+[0.15080853694878907, 0.15124720711280729, 0.1442238039323382, 0.15090686149175211]
+[0.07761998351801513, 0.08459435782517766, 0.09188702712943086, 0.08894049817058713]
+0.149296602371 0.0857604666608
+0.149296602371 0.0857604666608
+MLPRegressor(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=False, epsilon=1e-08,
+       hidden_layer_sizes=(64, 64), learning_rate='adaptive',
+       learning_rate_init=0.01, max_iter=10000, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=None,
+       shuffle=True, solver='adam', tol=0.0001, validation_fraction=0.1,
+       verbose=False, warm_start=False)
+0.144296005098 0.117452139953
+0.149907603026 0.0927021514321
+0.142994867148 0.0996250939827
+0.151860017498 0.0831860756899
+[0.14429600509835772, 0.14990760302649261, 0.14299486714804274, 0.1518600174980401]
+[0.11745213995343073, 0.09270215143209215, 0.09962509398266761, 0.08318607568992398]
+0.147264623193 0.0982413652645
+0.147264623193 0.0982413652645
+MLPRegressor(activation='relu', alpha=0.0001, batch_size='auto', beta_1=0.9,
+       beta_2=0.999, early_stopping=False, epsilon=1e-08,
+       hidden_layer_sizes=(128, 128), learning_rate='adaptive',
+       learning_rate_init=0.001, max_iter=10000, momentum=0.9,
+       nesterovs_momentum=True, power_t=0.5, random_state=None,
+       shuffle=True, solver='adam', tol=0.0001, validation_fraction=0.1,
+       verbose=False, warm_start=False)
+0.151806122004 0.071518521766
+0.145884639987 0.117050654353
+0.142171347576 0.10481042946
+0.147938590895 0.106860631848
+[0.15180612200443794, 0.1458846399874062, 0.14217134757556446, 0.147938590895496]
+[0.07151852176599216, 0.11705065435349693, 0.10481042945982078, 0.10686063184766181]
+0.146950175116 0.100060059357
+0.146950175116 0.100060059357
